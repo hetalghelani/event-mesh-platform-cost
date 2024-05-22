@@ -11,6 +11,7 @@ bridges_config_nonprod = []
 bridges_config_prod = []
 
 for service_name_source, service_data in services.items():
+    print(type(service_data))
     bridges = service_data.get("bridges", {})
     print(bridges)
 
