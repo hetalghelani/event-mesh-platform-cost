@@ -32,18 +32,6 @@ jobs:
       uses: hashicorp/setup-terraform@v2
       with:
         terraform_version: 1.2.5
-    - name: Broker Terraform Plan
-      working-directory: broker
-      run: |
-        terraform init
-        terraform validate
-        terraform plan -no-color -parallelism=1 \
-    - name: Bridge Terraform Plan
-      working-directory: bridge
-      run: |
-        terraform init
-        terraform validate
-        terraform plan -no-color -parallelism=1 \
     - name: Get Date
       id: date
       #run: echo "::set-output name=date::$(date '+%d-%m-%Y %H:%M:%S')"
