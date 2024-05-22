@@ -1,18 +1,8 @@
 import json
 import sys
 import re
-import os
 
-# Get the current working directory
-current_directory = os.getcwd()
-
-# Define the filename
-filename = "services.json"
-
-# Create the full path to the file by joining the current directory and the filename
-file_path = os.path.join(current_directory, filename)
-
-with open(file_path, 'r') as file:
+with open(sys.argv[1], 'r') as file:
     services = json.load(file)
 
 print(services)
