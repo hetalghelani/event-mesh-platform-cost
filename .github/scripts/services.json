@@ -1,0 +1,2332 @@
+{
+  "dev-aks-euwe": {
+    "bridges": {},
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://dev-aks-euwe-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://dev-aks-euwe-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://dev-aks-euwe-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://dev-aks-euwe-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://dev-aks-euwe-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://dev-aks-euwe-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://dev-aks-euwe-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://dev-aks-euwe-int-ingka.messaging.solace.cloud:8443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://dev-aks-euwe-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://dev-aks-euwe-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://dev-aks-euwe-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://dev-aks-euwe-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://dev-aks-euwe-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://dev-aks-euwe-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://dev-aks-euwe-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "sandbox",
+    "infrastructureId": "5qrt8a0p712",
+    "name": "dev-aks-euwe",
+    "serviceId": "9vpco5p9bwe",
+    "site": "aks",
+    "url": "https://mr-5qrt8a0p712.messaging.solace.cloud:943",
+    "version": "10.7.1.56",
+    "vpn": "dev-aks-euwe"
+  },
+  "dev-dc8oc4-euse": {
+    "bridges": {},
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:32738",
+        "Secured JMS": "smfs://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:32557",
+        "Secured MQTT": "ssl://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:30588",
+        "Secured REST": "https://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:31958",
+        "Secured SMF": "tcps://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:32557",
+        "Secured UI": "https://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:30131",
+        "Secured Web Messaging": "wss://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:30738",
+        "WebSocket Secured MQTT": "wss://dev-dc8oc4-euse-int-ingka.messaging.solace.cloud:32599"
+      }
+    },
+    "environment": "sandbox",
+    "infrastructureId": "iioasouaik1",
+    "name": "dev-dc8oc4-euse",
+    "serviceId": "x65x882tyec",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:30131",
+    "version": "10.7.1.56",
+    "vpn": "dev-dc8oc4-euse"
+  },
+  "dev-dc9oc4-cnsh": {
+    "bridges": {},
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:32724",
+        "Secured JMS": "smfs://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:31140",
+        "Secured MQTT": "ssl://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30476",
+        "Secured REST": "https://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:32397",
+        "Secured SMF": "tcps://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:31140",
+        "Secured UI": "https://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30676",
+        "Secured Web Messaging": "wss://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30415",
+        "WebSocket Secured MQTT": "wss://dev-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30574"
+      }
+    },
+    "environment": "sandbox",
+    "infrastructureId": "ea5567x1zgv",
+    "name": "dev-dc9oc4-cnsh",
+    "serviceId": "hd2qxzr1dju",
+    "site": "dc9",
+    "url": "https://non-pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:30676",
+    "version": "10.7.1.56",
+    "vpn": "dev-dc9oc4-cnsh"
+  },
+  "dev-gke-euwe4": {
+    "bridges": {},
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://dev-gke-euwe4-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://dev-gke-euwe4-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://dev-gke-euwe4-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://dev-gke-euwe4-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://dev-gke-euwe4-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://dev-gke-euwe4-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://dev-gke-euwe4-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "sandbox",
+    "infrastructureId": "98gwteh8amt",
+    "name": "dev-gke-euwe4",
+    "serviceId": "06a43ajds6n",
+    "site": "gke",
+    "url": "https://mr-98gwteh8amt-int.messaging.solace.cloud:943",
+    "version": "10.7.1.56",
+    "vpn": "dev-gke-euwe4"
+  },
+  "int-aks-euwe": {
+    "bridges": {
+      "#cluster:12cb03794597000a6247132500000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-dc8oc4-euse"
+      },
+      "#cluster:12cb03794597000a6247132500000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-gke-euwe4"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://int-aks-euwe-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://int-aks-euwe-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://int-aks-euwe-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://int-aks-euwe-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://int-aks-euwe-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://int-aks-euwe-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://int-aks-euwe-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://int-aks-euwe-int-ingka.messaging.solace.cloud:8443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://int-aks-euwe-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://int-aks-euwe-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://int-aks-euwe-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://int-aks-euwe-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://int-aks-euwe-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://int-aks-euwe-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://int-aks-euwe-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "integration",
+    "infrastructureId": "jv15als0xo7",
+    "name": "int-aks-euwe",
+    "serviceId": "iy3h2uj6h1j",
+    "site": "aks",
+    "url": "https://mr-jv15als0xo7.messaging.solace.cloud:943",
+    "version": "10.7.1.56",
+    "vpn": "int-aks-euwe"
+  },
+  "int-ali-cnsh": {
+    "bridges": {
+      "#cluster:931821275016000a6262af2e00000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-dc9oc4-cnsh"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://int-ali-cnsh-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://int-ali-cnsh-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://int-ali-cnsh-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://int-ali-cnsh-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://int-ali-cnsh-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://int-ali-cnsh-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://int-ali-cnsh-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://int-ali-cnsh-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "integration",
+    "infrastructureId": "8hnkmzl8mdd",
+    "name": "int-ali-cnsh",
+    "serviceId": "9l8owmc75d8",
+    "site": "ali",
+    "url": "https://mr-8hnkmzl8mdd.messaging.solace.cloud:943",
+    "version": "10.7.1.56",
+    "vpn": "int-ali-cnsh"
+  },
+  "int-dc8oc4-euse": {
+    "bridges": {
+      "#cluster:aa6d5a5b7cba000a62559a1000000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-aks-euwe"
+      },
+      "#cluster:ec28aa9eb1f5000a62c7d67d00000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-gke-euwe4"
+      },
+      "int-dc8oc4-euse_int-dc9oc4-cnsh": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "int-dc9oc4-cnsh"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:32491",
+        "Secured JMS": "smfs://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:31295",
+        "Secured MQTT": "ssl://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:31050",
+        "Secured REST": "https://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:31219",
+        "Secured SMF": "tcps://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:31295",
+        "Secured UI": "https://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:30227",
+        "Secured Web Messaging": "wss://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:31937",
+        "WebSocket Secured MQTT": "wss://int-dc8oc4-euse-int-ingka.messaging.solace.cloud:31817"
+      }
+    },
+    "environment": "integration",
+    "infrastructureId": "wmkmb0rl90u",
+    "name": "int-dc8oc4-euse",
+    "serviceId": "wy4fy2c1t4b",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:30227",
+    "version": "10.7.1.56",
+    "vpn": "int-dc8oc4-euse"
+  },
+  "int-dc9oc4-cnsh": {
+    "bridges": {
+      "#cluster:ae7ea6bec2e8000a624db93d00000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-ali-cnsh"
+      },
+      "int-dc8oc4-euse_int-dc9oc4-cnsh": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "int-dc8oc4-euse"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:31910",
+        "Secured JMS": "smfs://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:32314",
+        "Secured MQTT": "ssl://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30756",
+        "Secured REST": "https://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30263",
+        "Secured SMF": "tcps://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:32314",
+        "Secured UI": "https://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:32761",
+        "Secured Web Messaging": "wss://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:31755",
+        "WebSocket Secured MQTT": "wss://int-dc9oc4-cnsh-int-ingka.messaging.solace.cloud:30722"
+      }
+    },
+    "environment": "integration",
+    "infrastructureId": "iiclitmopwy",
+    "name": "int-dc9oc4-cnsh",
+    "serviceId": "e15b61ryn5i",
+    "site": "dc9",
+    "url": "https://non-pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:32761",
+    "version": "10.7.1.56",
+    "vpn": "int-dc9oc4-cnsh"
+  },
+  "int-gke-euwe4": {
+    "bridges": {
+      "#cluster:8ee2fee6f2f1000a62b3c99c00000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-dc8oc4-euse"
+      },
+      "#cluster:8ee2fee6f2f1000a62b3c99c00000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "int-aks-euwe"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "common",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://int-gke-euwe4-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://int-gke-euwe4-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://int-gke-euwe4-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://int-gke-euwe4-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://int-gke-euwe4-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://int-gke-euwe4-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://int-gke-euwe4-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://int-gke-euwe4-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://int-gke-euwe4-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://int-gke-euwe4-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://int-gke-euwe4-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://int-gke-euwe4-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://int-gke-euwe4-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "integration",
+    "infrastructureId": "i4ki8lin8b4",
+    "name": "int-gke-euwe4",
+    "serviceId": "4rc21q1513s",
+    "site": "gke",
+    "url": "https://mr-i4ki8lin8b4-int.messaging.solace.cloud:943",
+    "version": "10.7.1.56",
+    "vpn": "int-gke-euwe4"
+  },
+  "pro-aks-euwe-cgeu-1-bs-1": {
+    "bridges": {
+      "#cluster:9ef9de561720000a627a4bbd00000007": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:9ef9de561720000a65b8ef6a00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "#cluster:d8cb704b0db3000a636e53c100000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:8443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "1zjzcgawhwl",
+    "name": "pro-aks-euwe-cgeu-1-bs-1",
+    "serviceId": "jwov6p8ghmz",
+    "site": "aks",
+    "url": "https://mr-1zjzcgawhwl.messaging.solace.cloud:943",
+    "version": "10.4.1.94",
+    "vpn": "pro-aks-euwe-cgeu-1"
+  },
+  "pro-ali-cnsh-cgap-1-bs-1": {
+    "bridges": {
+      "#cluster:9fcda6cfc931000a61afd31800000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:5671",
+        "Secured JMS": "smfs://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:55443",
+        "Secured MQTT": "ssl://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:8883",
+        "Secured REST": "https://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:9443",
+        "Secured SMF": "tcps://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:55443",
+        "Secured UI": "https://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:943",
+        "Secured Web Messaging": "wss://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:443",
+        "WebSocket Secured MQTT": "wss://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "84z9sdn7209",
+    "name": "pro-ali-cnsh-cgap-1-bs-1",
+    "serviceId": "zlfemqvc4c2",
+    "site": "ali",
+    "url": "https://pro-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:943",
+    "version": "10.4.1.131",
+    "vpn": "shanghai-alicloud-prod-01"
+  },
+  "pro-ali-cnsh-cgap-1-cu-1": {
+    "bridges": {
+      "#cluster:1edf1612b7d0000a636e4f2200000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-ts-1"
+      },
+      "#cluster:c209648b4d81000a6231a5c700000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-il-1"
+      },
+      "#cluster:c209648b4d81000a6231a5c700000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:c209648b4d81000a6231a5c700000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "8spykhe1cp6",
+    "name": "pro-ali-cnsh-cgap-1-cu-1",
+    "serviceId": "2c42mc5ehxk",
+    "site": "ali",
+    "url": "https://mr-8spykhe1cp6.messaging.solace.cloud:943",
+    "version": "10.4.1.131",
+    "vpn": "pro-ali-cnsh-cgap-1"
+  },
+  "pro-ali-cnsh-cgap-1-fu-1": {
+    "bridges": {
+      "#cluster:bfa5df656228000a618d39d300000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:bfa5df656228000a61afdb3e00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-bs-1"
+      },
+      "#cluster:bfa5df656228000a621f1b9000000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "vbmnnt4y9g9",
+    "name": "pro-ali-cnsh-cgap-1-fu-1",
+    "serviceId": "vbmnnt4y9ff",
+    "site": "ali",
+    "url": "https://mr-vbmnnt4y9g9.messaging.solace.cloud:943",
+    "version": "10.4.1.131",
+    "vpn": "shanghai-alicloud-prod-01"
+  },
+  "pro-ali-cnsh-cgap-1-il-1": {
+    "bridges": {
+      "#cluster:84f7aaa7ce8a000a6231a9cc00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:dc463cc75d5a000a636e4f8f00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "uug2h8fa41a",
+    "name": "pro-ali-cnsh-cgap-1-il-1",
+    "serviceId": "0wydt4o7934",
+    "site": "ali",
+    "url": "https://mr-uug2h8fa41a.messaging.solace.cloud:943",
+    "version": "10.4.1.131",
+    "vpn": "pro-ali-cnsh-cgap-1"
+  },
+  "pro-ali-cnsh-cgap-1-ts-1": {
+    "bridges": {
+      "#cluster:cd2305ebb93f000a640ec74c00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:cd2305ebb93f000a640ec74c00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "technology-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "5xqj48wnxy2",
+    "name": "pro-ali-cnsh-cgap-1-ts-1",
+    "serviceId": "xd4fz00n13r",
+    "site": "ali",
+    "url": "https://mr-connection-766hac4aoln.messaging.solace.cloud:943",
+    "version": "10.4.1.131",
+    "vpn": "pro-ali-cnsh-cgap-1"
+  },
+  "pro-dc8oc4-euse-cgeu-1-cu-1": {
+    "bridges": {
+      "#cluster:6aca0ee4e290000a60ab528700000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-fu-1"
+      },
+      "#cluster:6aca0ee4e290000a617765ab00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-il-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32263",
+        "Secured JMS": "smfs://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:30092",
+        "Secured MQTT": "ssl://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:31037",
+        "Secured REST": "https://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:31666",
+        "Secured SMF": "tcps://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:30092",
+        "Secured UI": "https://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:30791",
+        "Secured Web Messaging": "wss://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:30348",
+        "WebSocket Secured MQTT": "wss://pro-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32656"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "8d9u573add7",
+    "name": "pro-dc8oc4-euse-cgeu-1-cu-1",
+    "serviceId": "r51nfwk0jys",
+    "site": "dc8",
+    "url": "https://pro-dc8oc4-euse-ingka.messaging.solace.cloud:30791",
+    "version": "10.7.1.51",
+    "vpn": "pro-dc8oc4-euse-cgeu-1"
+  },
+  "pro-dc8oc4-euse-cgeu-1-fu-1": {
+    "bridges": {
+      "#cluster:69b65d9b2550000a60ff6a1000000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:69b65d9b2550000a6177647f00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-il-1"
+      },
+      "#cluster:cf4cf92d30c9000a60ab4f2200000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-cu-1"
+      },
+      "#cluster:cf4cf92d30c9000a637c2d7400000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-aks-euwe-cgeu-1-bs-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:30397",
+        "Secured JMS": "smfs://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:30953",
+        "Secured MQTT": "ssl://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:30668",
+        "Secured REST": "https://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:31221",
+        "Secured SMF": "tcps://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:30953",
+        "Secured UI": "https://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:30373",
+        "Secured Web Messaging": "wss://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:30282",
+        "WebSocket Secured MQTT": "wss://pro-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:31984"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "bwkoqvj8311",
+    "name": "pro-dc8oc4-euse-cgeu-1-fu-1",
+    "serviceId": "ddhd73spnoe",
+    "site": "dc8",
+    "url": "https://pro-dc8oc4-euse-ingka.messaging.solace.cloud:30373",
+    "version": "10.7.1.56",
+    "vpn": "pro-dc8oc4-euse-cgeu-1"
+  },
+  "pro-dc8oc4-euse-cgeu-1-il-1": {
+    "bridges": {
+      "#cluster:8fbb4d75b326000a6183923500000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-fu-1"
+      },
+      "#cluster:8fbb4d75b326000a6183923500000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-cu-1"
+      },
+      "#cluster:ca960dad8d02000a6238d52300000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31703",
+        "Secured JMS": "smfs://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32218",
+        "Secured MQTT": "ssl://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32414",
+        "Secured REST": "https://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32404",
+        "Secured SMF": "tcps://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32218",
+        "Secured UI": "https://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32377",
+        "Secured Web Messaging": "wss://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31166",
+        "WebSocket Secured MQTT": "wss://pro-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31446"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "a3hkhyxv7p5",
+    "name": "pro-dc8oc4-euse-cgeu-1-il-1",
+    "serviceId": "chkdof6xdcs",
+    "site": "dc8",
+    "url": "https://pro-dc8oc4-euse-ingka.messaging.solace.cloud:32377",
+    "version": "10.7.1.56",
+    "vpn": "pro-dc8oc4-euse-cgeu-1"
+  },
+  "pro-dc8oc4-euse-cgeu-2-bs-1": {
+    "bridges": {
+      "#cluster:035af284f83d000a6241a16000000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-2": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-bs-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32030",
+        "Secured JMS": "smfs://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32148",
+        "Secured MQTT": "ssl://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:31922",
+        "Secured REST": "https://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:31954",
+        "Secured SMF": "tcps://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32148",
+        "Secured UI": "https://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:30437",
+        "Secured Web Messaging": "wss://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32458",
+        "WebSocket Secured MQTT": "wss://pro-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:30746"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "ibtlj2qc02f",
+    "name": "pro-dc8oc4-euse-cgeu-2-bs-1",
+    "serviceId": "f5bh2a7en0w",
+    "site": "dc8",
+    "url": "https://pro-dc8oc4-euse-ingka.messaging.solace.cloud:30437",
+    "version": "10.7.1.51",
+    "vpn": "pro-dc8oc4-euse-cgeu-2"
+  },
+  "pro-dc8oc4-euse-cgeu-2-ts-1": {
+    "bridges": {
+      "#cluster:4713ad6d4be6000a623c7a1500000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-2-bs-1"
+      },
+      "#cluster:4713ad6d4be6000a623c7a1500000004": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-il-1"
+      },
+      "#cluster:a1e41859a7fe000a6627268a00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-aks-euwe-cgeu-1-bs-1"
+      },
+      "#cluster:a1e41859a7fe000a6627268a00000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "technology-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:32009",
+        "Secured JMS": "smfs://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:30426",
+        "Secured MQTT": "ssl://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:30003",
+        "Secured REST": "https://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:32471",
+        "Secured SMF": "tcps://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:30426",
+        "Secured UI": "https://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:31819",
+        "Secured Web Messaging": "wss://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:32102",
+        "WebSocket Secured MQTT": "wss://pro-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:31092"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "4r1l7f4q06d",
+    "name": "pro-dc8oc4-euse-cgeu-2-ts-1",
+    "serviceId": "a00y1p7h0u4",
+    "site": "dc8",
+    "url": "https://pro-dc8oc4-euse-ingka.messaging.solace.cloud:31819",
+    "version": "10.7.1.56",
+    "vpn": "pro-dc8oc4-euse-cgeu-2"
+  },
+  "pro-dc9oc4-cnsh-cgap-1-bs-1": {
+    "bridges": {
+      "#cluster:6ef942e1e953000a61535f7300000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:6ef942e1e953000a61535f7300000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:a7c38a5bc0a7000a617037ff00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-il-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-2": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-2-bs-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:31700",
+        "Secured JMS": "smfs://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:32226",
+        "Secured MQTT": "ssl://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:32167",
+        "Secured REST": "https://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:32320",
+        "Secured SMF": "tcps://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:32226",
+        "Secured UI": "https://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:32265",
+        "Secured Web Messaging": "wss://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:31509",
+        "WebSocket Secured MQTT": "wss://pro-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:31377"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "fn2ii3c1u1x",
+    "name": "pro-dc9oc4-cnsh-cgap-1-bs-1",
+    "serviceId": "iy122i0xbeb",
+    "site": "dc9",
+    "url": "https://pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:32265",
+    "version": "10.7.1.51",
+    "vpn": "pro-dc9oc4-cnsh-cgap-1"
+  },
+  "pro-dc9oc4-cnsh-cgap-1-cu-1": {
+    "bridges": {
+      "#cluster:8ed136258d22000a615564b400000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-bs-1"
+      },
+      "#cluster:8ed136258d22000a615564b400000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:a9bd4f5dde41000a61703be000000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-il-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:31815",
+        "Secured JMS": "smfs://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:30080",
+        "Secured MQTT": "ssl://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:30590",
+        "Secured REST": "https://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:32183",
+        "Secured SMF": "tcps://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:30080",
+        "Secured UI": "https://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:30724",
+        "Secured Web Messaging": "wss://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:32725",
+        "WebSocket Secured MQTT": "wss://pro-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:32096"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "y4rarvcdh23",
+    "name": "pro-dc9oc4-cnsh-cgap-1-cu-1",
+    "serviceId": "bmjh9v36chs",
+    "site": "dc9",
+    "url": "https://pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:30724",
+    "version": "10.4.1.195",
+    "vpn": "pro-dc9oc4-cnsh-cgap-1"
+  },
+  "pro-dc9oc4-cnsh-cgap-1-fu-1": {
+    "bridges": {
+      "#cluster:08025b9c6153000a6153610200000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-bs-1"
+      },
+      "#cluster:08025b9c6153000a6153610200000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:08025b9c6153000a617037ff00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-il-1"
+      },
+      "#cluster:08025b9c6153000a617037ff00000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:08025b9c6153000a623260fb00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-ali-cnsh-cgap-1-cu-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:32604",
+        "Secured JMS": "smfs://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31750",
+        "Secured MQTT": "ssl://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31887",
+        "Secured REST": "https://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31587",
+        "Secured SMF": "tcps://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31750",
+        "Secured UI": "https://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:32509",
+        "Secured Web Messaging": "wss://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31821",
+        "WebSocket Secured MQTT": "wss://pro-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31427"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "l2wr57uyvj6",
+    "name": "pro-dc9oc4-cnsh-cgap-1-fu-1",
+    "serviceId": "xqinbqkombx",
+    "site": "dc9",
+    "url": "https://pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:32509",
+    "version": "10.7.1.56",
+    "vpn": "pro-dc9oc4-cnsh-cgap-1"
+  },
+  "pro-dc9oc4-cnsh-cgap-1-il-1": {
+    "bridges": {
+      "#cluster:22a12fce6238000a618a388a00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:22a12fce6238000a618a388a00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:22a12fce6238000a618a388a00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-dc9oc4-cnsh-cgap-1-bs-1"
+      },
+      "pro-dc9oc4-cnsh-cgap-1_pro-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:30503",
+        "Secured JMS": "smfs://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:31764",
+        "Secured MQTT": "ssl://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:30456",
+        "Secured REST": "https://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:32300",
+        "Secured SMF": "tcps://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:31764",
+        "Secured UI": "https://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:31590",
+        "Secured Web Messaging": "wss://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:31983",
+        "WebSocket Secured MQTT": "wss://pro-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:32084"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "606n812m4x1",
+    "name": "pro-dc9oc4-cnsh-cgap-1-il-1",
+    "serviceId": "bm1e9vp8762",
+    "site": "dc9",
+    "url": "https://pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:31590",
+    "version": "10.7.1.51",
+    "vpn": "pro-dc9oc4-cnsh-cgap-1"
+  },
+  "pro-gke-euwe4-cgeu-1-bs-1": {
+    "bridges": {
+      "#cluster:1452f41630ee000a6124c43a00000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:1452f41630ee000a6124c43a00000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:1452f41630ee000a6203b74100000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:1452f41630ee000a6203b74100000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:1452f41630ee000a6203b74100000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:1452f41630ee000a6243bb5400000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-pe-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "93fngnrh0zb",
+    "name": "pro-gke-euwe4-cgeu-1-bs-1",
+    "serviceId": "1wjuysh8hpj",
+    "site": "gke",
+    "url": "https://mr-93fngnrh0zb-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "pro-gke-euwe4-cgeu-1-bv-1": {
+    "bridges": {
+      "#cluster:dffe43926bc6000a620e4d3100000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:dffe43926bc6000a620e4d3100000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:dffe43926bc6000a620e4d3100000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:dffe43926bc6000a620e4d3100000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:dffe43926bc6000a620e4d3100000005": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:dffe43926bc6000a6243bb5700000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-pe-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "ventures-and-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "gbbs69er13k",
+    "name": "pro-gke-euwe4-cgeu-1-bv-1",
+    "serviceId": "3ahmd2p5n19",
+    "site": "gke",
+    "url": "https://mr-gbbs69er13k-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "pro-gke-euwe4-cgeu-1-cu-1": {
+    "bridges": {
+      "#cluster:811a73ed4ed8000a6124c24900000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:811a73ed4ed8000a6124c24900000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:811a73ed4ed8000a6203b6db00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:811a73ed4ed8000a6203b6db00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:811a73ed4ed8000a6203b6db00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:811a73ed4ed8000a6243ba8700000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-pe-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "s855s946wn3",
+    "name": "pro-gke-euwe4-cgeu-1-cu-1",
+    "serviceId": "d8t3y94j1hf",
+    "site": "gke",
+    "url": "https://mr-s855s946wn3-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "pro-gke-euwe4-cgeu-1-fu-1": {
+    "bridges": {
+      "#cluster:0eff9a7bd466000a6112723800000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:0eff9a7bd466000a6112723800000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:0eff9a7bd466000a6203b73f00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:0eff9a7bd466000a6203b73f00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:0eff9a7bd466000a6243bec400000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-pe-1"
+      },
+      "#cluster:291fb84c0f5b000a610d194300000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-1-fu-1"
+      },
+      "#cluster:291fb84c0f5b000a623bb76000000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "6xd6hkbahkc",
+    "name": "pro-gke-euwe4-cgeu-1-fu-1",
+    "serviceId": "h7jy7ccd6u0",
+    "site": "gke",
+    "url": "https://mr-6xd6hkbahkc-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "pro-gke-euwe4-cgeu-1-il-1": {
+    "bridges": {
+      "#cluster:3787d56deab2000a6243bb5800000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-pe-1"
+      },
+      "#cluster:3787d56deab2000a62c2c40b00000003": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-aks-euwe-cgeu-1-bs-1"
+      },
+      "#cluster:5a5a75a3e3ff000a620e653200000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:5a5a75a3e3ff000a620e653200000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:5a5a75a3e3ff000a620e653200000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:5a5a75a3e3ff000a620e653200000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:5a5a75a3e3ff000a620e653200000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "lnhu0z2ubgq",
+    "name": "pro-gke-euwe4-cgeu-1-il-1",
+    "serviceId": "nhmu79gec1o",
+    "site": "gke",
+    "url": "https://mr-lnhu0z2ubgq-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "pro-gke-euwe4-cgeu-1-pe-1": {
+    "bridges": {
+      "#cluster:bed0b4255e82000a6243f59800000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:bed0b4255e82000a6243f59800000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:bed0b4255e82000a6243f59800000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:bed0b4255e82000a6243f59800000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:bed0b4255e82000a6243f59800000005": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:bed0b4255e82000a6243f59800000006": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "people",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "qi1fk9932hr",
+    "name": "pro-gke-euwe4-cgeu-1-pe-1",
+    "serviceId": "ghx2g3pb1iy",
+    "site": "gke",
+    "url": "https://mr-qi1fk9932hr-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "pro-gke-euwe4-cgeu-1-ts-1": {
+    "bridges": {
+      "#cluster:8e3fd2124829000a6242a2a700000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:8e3fd2124829000a6242a2a700000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:8e3fd2124829000a6242a2a700000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:8e3fd2124829000a6242a2a700000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:8e3fd2124829000a6242a2a700000005": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:ea3f41766978000a6243bb5500000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "pro-gke-euwe4-cgeu-1-pe-1"
+      },
+      "#cluster:ea3f41766978000a65e6d0b000000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "pro-dc8oc4-euse-cgeu-2-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "technology-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://pro-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://pro-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "production",
+    "infrastructureId": "o5r0rsm163f",
+    "name": "pro-gke-euwe4-cgeu-1-ts-1",
+    "serviceId": "k6ybc0v09bo",
+    "site": "gke",
+    "url": "https://mr-o5r0rsm163f-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "pro-gke-euwe4-cgeu-1"
+  },
+  "qa-aks-euwe-cgeu-1-bs-1": {
+    "bridges": {
+      "#cluster:8576a001858f000a627a4a4700000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "#cluster:8576a001858f000a627a4a4700000005": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:dbf9a3096106000a63883eb700000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-aks-euwe-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:8443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-aks-euwe-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "5n2hr259hd7",
+    "name": "qa-aks-euwe-cgeu-1-bs-1",
+    "serviceId": "qfroj7ryyo6",
+    "site": "aks",
+    "url": "https://mr-5n2hr259hd7.messaging.solace.cloud:943",
+    "version": "10.5.1.67",
+    "vpn": "qa-aks-euwe-cgeu-1"
+  },
+  "qa-ali-cnsh-cgap-1-bs-1": {
+    "bridges": {
+      "#cluster:17b9072b0106000a63885a7a00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:5671",
+        "Secured JMS": "smfs://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:55443",
+        "Secured MQTT": "ssl://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:8883",
+        "Secured REST": "https://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:9443",
+        "Secured SMF": "tcps://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:55443",
+        "Secured UI": "https://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:943",
+        "Secured Web Messaging": "wss://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:443",
+        "WebSocket Secured MQTT": "wss://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "dhdhj7ry7hn",
+    "name": "qa-ali-cnsh-cgap-1-bs-1",
+    "serviceId": "2qrc1ro9w2o",
+    "site": "ali",
+    "url": "https://qa-ali-cnsh-cgap-1-bs-1-int-ingka.ingka-system.cn:943",
+    "version": "10.5.1.67",
+    "vpn": "shanghai-ali-staging-01"
+  },
+  "qa-ali-cnsh-cgap-1-cu-1": {
+    "bridges": {
+      "#cluster:0284f1327cb3000a621f7f9c00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:0284f1327cb3000a625c0d8a00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:355090b7dc7c000a6229f0b200000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-il-1"
+      },
+      "#cluster:355090b7dc7c000a633c721300000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-ali-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "1w7d21ub7kx",
+    "name": "qa-ali-cnsh-cgap-1-cu-1",
+    "serviceId": "xho9v9k8shq",
+    "site": "ali",
+    "url": "https://mr-1w7d21ub7kx.messaging.solace.cloud:943",
+    "version": "10.5.1.67",
+    "vpn": "qa-ali-cnsh-cgap-1"
+  },
+  "qa-ali-cnsh-cgap-1-fu-1": {
+    "bridges": {
+      "#cluster:80a6f26f69b1000a6169d20800000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:80a6f26f69b1000a621515f600000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:80a6f26f69b1000a6388667800000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-bs-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-ali-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "od9wo7ub9jd",
+    "name": "qa-ali-cnsh-cgap-1-fu-1",
+    "serviceId": "od9wo7ub9ij",
+    "site": "ali",
+    "url": "https://mr-od9wo7ub9jd.messaging.solace.cloud:943",
+    "version": "10.5.1.67",
+    "vpn": "shanghai-ali-staging-01"
+  },
+  "qa-ali-cnsh-cgap-1-il-1": {
+    "bridges": {
+      "#cluster:a1f12e382eb7000a633c701d00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-ts-1"
+      },
+      "#cluster:bea8e3d0530d000a6233bf7000000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-ali-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "f00iw63c015",
+    "name": "qa-ali-cnsh-cgap-1-il-1",
+    "serviceId": "956gfh9jcn5",
+    "site": "ali",
+    "url": "https://mr-f00iw63c015.messaging.solace.cloud:943",
+    "version": "10.5.1.67",
+    "vpn": "qa-ali-cnsh-cgap-1"
+  },
+  "qa-ali-cnsh-cgap-1-ts-1": {
+    "bridges": {
+      "#cluster:7a3e1e8d11e0000a635f9e0d00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:7a3e1e8d11e0000a635f9e0d00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "technology-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-ali-cnsh-cgap-1-ts-1-int-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "pmf00abs6ix",
+    "name": "qa-ali-cnsh-cgap-1-ts-1",
+    "serviceId": "8ia333fgl62",
+    "site": "ali",
+    "url": "https://mr-connection-6nih24cmp58.messaging.solace.cloud:943",
+    "version": "10.5.1.67",
+    "vpn": "qa-ali-cnsh-cgap-1"
+  },
+  "qa-dc8oc4-euse-cgeu-1-cu-1": {
+    "bridges": {
+      "#cluster:1bacf6472e67000a60a24dcf00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-fu-1"
+      },
+      "#cluster:1bacf6472e67000a615e672b00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-il-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32477",
+        "Secured JMS": "smfs://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32589",
+        "Secured MQTT": "ssl://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32737",
+        "Secured REST": "https://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:30975",
+        "Secured SMF": "tcps://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32589",
+        "Secured UI": "https://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32699",
+        "Secured Web Messaging": "wss://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:32681",
+        "WebSocket Secured MQTT": "wss://qa-dc8oc4-euse-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:31843"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "c01l0xf8wlp",
+    "name": "qa-dc8oc4-euse-cgeu-1-cu-1",
+    "serviceId": "lv2yis2pakl",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:32699",
+    "version": "10.7.1.51",
+    "vpn": "qa-dc8oc4-euse-cgeu-1"
+  },
+  "qa-dc8oc4-euse-cgeu-1-fu-1": {
+    "bridges": {
+      "#cluster:6559afd63ffb000a609be72800000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-cu-1"
+      },
+      "#cluster:6559afd63ffb000a60e7c09f00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:6559afd63ffb000a615e694b00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-il-1"
+      },
+      "#cluster:e3da4d45d917000a6391776600000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-aks-euwe-cgeu-1-bs-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:32207",
+        "Secured JMS": "smfs://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:32402",
+        "Secured MQTT": "ssl://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:32475",
+        "Secured REST": "https://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:31072",
+        "Secured SMF": "tcps://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:32402",
+        "Secured UI": "https://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:32378",
+        "Secured Web Messaging": "wss://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:32340",
+        "WebSocket Secured MQTT": "wss://qa-dc8oc4-euse-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:31890"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "09vhidv6k99",
+    "name": "qa-dc8oc4-euse-cgeu-1-fu-1",
+    "serviceId": "co4wdz43ge2",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:32378",
+    "version": "10.7.1.56",
+    "vpn": "qa-dc8oc4-euse-cgeu-1"
+  },
+  "qa-dc8oc4-euse-cgeu-1-il-1": {
+    "bridges": {
+      "#cluster:a91e6e65b1c1000a617954c200000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-fu-1"
+      },
+      "#cluster:a91e6e65b1c1000a617954c200000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-cu-1"
+      },
+      "#cluster:a91e6e65b1c1000a6220e9b400000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:30181",
+        "Secured JMS": "smfs://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31592",
+        "Secured MQTT": "ssl://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31972",
+        "Secured REST": "https://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32626",
+        "Secured SMF": "tcps://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31592",
+        "Secured UI": "https://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:32395",
+        "Secured Web Messaging": "wss://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:30261",
+        "WebSocket Secured MQTT": "wss://qa-dc8oc4-euse-cgeu-1-il-1-int-ingka.messaging.solace.cloud:31561"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "dht8uygfc26",
+    "name": "qa-dc8oc4-euse-cgeu-1-il-1",
+    "serviceId": "apruasighaj",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:32395",
+    "version": "10.7.1.56",
+    "vpn": "qa-dc8oc4-euse-cgeu-1"
+  },
+  "qa-dc8oc4-euse-cgeu-2-bs-1": {
+    "bridges": {
+      "#cluster:b93af17acc2a000a623da8df00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-2": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-bs-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32644",
+        "Secured JMS": "smfs://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32342",
+        "Secured MQTT": "ssl://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32071",
+        "Secured REST": "https://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:30861",
+        "Secured SMF": "tcps://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:32342",
+        "Secured UI": "https://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:30929",
+        "Secured Web Messaging": "wss://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:31614",
+        "WebSocket Secured MQTT": "wss://qa-dc8oc4-euse-cgeu-2-bs-1-int-ingka.messaging.solace.cloud:30971"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "dlc1jkla0zz",
+    "name": "qa-dc8oc4-euse-cgeu-2-bs-1",
+    "serviceId": "gv5etfy4y6j",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:30929",
+    "version": "10.7.1.51",
+    "vpn": "qa-dc8oc4-euse-cgeu-2"
+  },
+  "qa-dc8oc4-euse-cgeu-2-ts-1": {
+    "bridges": {
+      "#cluster:acab13841e82000a623c4b6300000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-2-bs-1"
+      },
+      "#cluster:acab13841e82000a623c4b6300000002": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:acab13841e82000a623c4b6300000003": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-il-1"
+      },
+      "#cluster:acab13841e82000a62c7ba0c00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-aks-euwe-cgeu-1-bs-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "technology-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:30269",
+        "Secured JMS": "smfs://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:31061",
+        "Secured MQTT": "ssl://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:32020",
+        "Secured REST": "https://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:32147",
+        "Secured SMF": "tcps://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:31061",
+        "Secured UI": "https://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:32178",
+        "Secured Web Messaging": "wss://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:30157",
+        "WebSocket Secured MQTT": "wss://qa-dc8oc4-euse-cgeu-2-ts-1-int-ingka.messaging.solace.cloud:31571"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "j1wyopc16ku",
+    "name": "qa-dc8oc4-euse-cgeu-2-ts-1",
+    "serviceId": "us94mbofes0",
+    "site": "dc8",
+    "url": "https://non-pro-dc8oc4-euse-ingka.messaging.solace.cloud:32178",
+    "version": "10.7.1.56",
+    "vpn": "qa-dc8oc4-euse-cgeu-2"
+  },
+  "qa-dc9oc4-cnsh-cgap-1-bs-1": {
+    "bridges": {
+      "#cluster:0073355ecc30000a615dd1f400000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-il-1"
+      },
+      "#cluster:ec7ebfdc70dd000a613f1d3400000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:ec7ebfdc70dd000a613f1d3400000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-2": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-2-bs-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:30023",
+        "Secured JMS": "smfs://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:30624",
+        "Secured MQTT": "ssl://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:32546",
+        "Secured REST": "https://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:31640",
+        "Secured SMF": "tcps://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:30624",
+        "Secured UI": "https://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:31145",
+        "Secured Web Messaging": "wss://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:31307",
+        "WebSocket Secured MQTT": "wss://qa-dc9oc4-cnsh-cgap-1-bs-1-int-ingka.messaging.solace.cloud:30039"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "zc3laid39l4",
+    "name": "qa-dc9oc4-cnsh-cgap-1-bs-1",
+    "serviceId": "ax5s7e0m56v",
+    "site": "dc9",
+    "url": "https://non-pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:31145",
+    "version": "10.7.1.51",
+    "vpn": "qa-dc9oc4-cnsh-cgap-1"
+  },
+  "qa-dc9oc4-cnsh-cgap-1-cu-1": {
+    "bridges": {
+      "#cluster:2cd3be95061d000a613f1b3d00000012": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:2cd3be95061d000a613f1b3d00000013": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-bs-1"
+      },
+      "#cluster:c84848a9e6d7000a615dd36b00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-il-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:31166",
+        "Secured JMS": "smfs://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:30266",
+        "Secured MQTT": "ssl://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:31922",
+        "Secured REST": "https://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:31750",
+        "Secured SMF": "tcps://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:30266",
+        "Secured UI": "https://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:31005",
+        "Secured Web Messaging": "wss://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:32520",
+        "WebSocket Secured MQTT": "wss://qa-dc9oc4-cnsh-cgap-1-cu-1-int-ingka.messaging.solace.cloud:31284"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "z08cgia54ki",
+    "name": "qa-dc9oc4-cnsh-cgap-1-cu-1",
+    "serviceId": "zay2curie9t",
+    "site": "dc9",
+    "url": "https://non-pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:31005",
+    "version": "10.7.1.51",
+    "vpn": "qa-dc9oc4-cnsh-cgap-1"
+  },
+  "qa-dc9oc4-cnsh-cgap-1-fu-1": {
+    "bridges": {
+      "#cluster:62495b31a18d000a614ab66d00000010": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-cu-1"
+      },
+      "#cluster:62495b31a18d000a614ab66d00000011": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-bs-1"
+      },
+      "#cluster:62495b31a18d000a615dcc8000000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:62495b31a18d000a615dcc8000000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-il-1"
+      },
+      "#cluster:62495b31a18d000a624db91d00000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-ali-cnsh-cgap-1-cu-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-fu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:32194",
+        "Secured JMS": "smfs://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31779",
+        "Secured MQTT": "ssl://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:32540",
+        "Secured REST": "https://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:32235",
+        "Secured SMF": "tcps://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31779",
+        "Secured UI": "https://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31595",
+        "Secured Web Messaging": "wss://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:30400",
+        "WebSocket Secured MQTT": "wss://qa-dc9oc4-cnsh-cgap-1-fu-1-int-ingka.messaging.solace.cloud:31717"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "fsm8y6hw5hv",
+    "name": "qa-dc9oc4-cnsh-cgap-1-fu-1",
+    "serviceId": "4ye2x5062if",
+    "site": "dc9",
+    "url": "https://non-pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:31595",
+    "version": "10.7.1.56",
+    "vpn": "qa-dc9oc4-cnsh-cgap-1"
+  },
+  "qa-dc9oc4-cnsh-cgap-1-il-1": {
+    "bridges": {
+      "#cluster:74b4c10cef8a000a617023d600000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-bs-1"
+      },
+      "#cluster:74b4c10cef8a000a617023d600000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-fu-1"
+      },
+      "#cluster:74b4c10cef8a000a617023d600000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-dc9oc4-cnsh-cgap-1-cu-1"
+      },
+      "qa-dc9oc4-cnsh-cgap-1_qa-dc8oc4-euse-cgeu-1": {
+        "bridge_type": "staticBridge",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:30941",
+        "Secured JMS": "smfs://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:30513",
+        "Secured MQTT": "ssl://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:32532",
+        "Secured REST": "https://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:31642",
+        "Secured SMF": "tcps://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:30513",
+        "Secured UI": "https://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:30272",
+        "Secured Web Messaging": "wss://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:32551",
+        "WebSocket Secured MQTT": "wss://qa-dc9oc4-cnsh-cgap-1-il-1-int-ingka.messaging.solace.cloud:32123"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "b472oq0if8q",
+    "name": "qa-dc9oc4-cnsh-cgap-1-il-1",
+    "serviceId": "ub3efheemr5",
+    "site": "dc9",
+    "url": "https://non-pro-dc9oc4-cnsh-ingka.messaging.solace.cloud:30272",
+    "version": "10.7.1.51",
+    "vpn": "qa-dc9oc4-cnsh-cgap-1"
+  },
+  "qa-gke-euwe4-cgeu-1-bs-1": {
+    "bridges": {
+      "#cluster:2e707320dda0000a610d13e900000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:2e707320dda0000a610d13e900000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:2e707320dda0000a618b21c400000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:2e707320dda0000a6203babe00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:2e707320dda0000a6203babe00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:cbad43eea175000a6243bb3d00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-pe-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "business-support",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-bs-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-bs-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "ak582dpb5tz",
+    "name": "qa-gke-euwe4-cgeu-1-bs-1",
+    "serviceId": "tj4vuoo0d7a",
+    "site": "gke",
+    "url": "https://mr-ak582dpb5tz-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  },
+  "qa-gke-euwe4-cgeu-1-bv-1": {
+    "bridges": {
+      "#cluster:5949b229545e000a620e6a9e00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:5949b229545e000a620e6a9e00000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:5949b229545e000a620e6a9e00000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:5949b229545e000a620e6a9e00000007": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:5949b229545e000a620e6a9e00000009": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:e99706cf70f3000a6243b9e700000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-pe-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "ventures-and-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-bv-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-bv-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "8il95gzwho2",
+    "name": "qa-gke-euwe4-cgeu-1-bv-1",
+    "serviceId": "iec3ylbbz41",
+    "site": "gke",
+    "url": "https://mr-8il95gzwho2-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  },
+  "qa-gke-euwe4-cgeu-1-cu-1": {
+    "bridges": {
+      "#cluster:80e44787d5f9000a610d158d00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:80e44787d5f9000a61234c9f00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:80e44787d5f9000a6203ba5900000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:80e44787d5f9000a6203ba5900000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:80e44787d5f9000a6243ba6100000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-pe-1"
+      },
+      "#cluster:ca944268fb13000a618b226700000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "customer",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-cu-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-cu-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "p42ckh47uyn",
+    "name": "qa-gke-euwe4-cgeu-1-cu-1",
+    "serviceId": "khh13ydlh6e",
+    "site": "gke",
+    "url": "https://mr-p42ckh47uyn-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  },
+  "qa-gke-euwe4-cgeu-1-fu-1": {
+    "bridges": {
+      "#cluster:68dae36a2d13000a6102c30100000000": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-1-fu-1"
+      },
+      "#cluster:68dae36a2d13000a6109efe900000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:68dae36a2d13000a6109efe900000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:68dae36a2d13000a6203ba5b00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:68dae36a2d13000a6203ba5b00000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:68dae36a2d13000a6243bf9b00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-pe-1"
+      },
+      "#cluster:fdf76874f4d2000a618b226800000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "fulfillment",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-fu-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-fu-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "3680sypaq80",
+    "name": "qa-gke-euwe4-cgeu-1-fu-1",
+    "serviceId": "m3j958hqe26",
+    "site": "gke",
+    "url": "https://mr-3680sypaq80-int.messaging.solace.cloud:943",
+    "version": "10.4.1.94",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  },
+  "qa-gke-euwe4-cgeu-1-il-1": {
+    "bridges": {
+      "#cluster:f90158439dd9000a6203ba4500000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:f90158439dd9000a6203ba4500000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      },
+      "#cluster:f90158439dd9000a6243b9e600000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-pe-1"
+      },
+      "#cluster:f90158439dd9000a62bd9e7300000001": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-aks-euwe-cgeu-1-bs-1"
+      },
+      "#cluster:fc6ee58df529000a61a78ebd00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:fc6ee58df529000a61a78ebd00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:fc6ee58df529000a61a78ebd00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-cu-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "inventory-and-logistics-operations",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-il-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-il-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "ed0zbwg1fs3",
+    "name": "qa-gke-euwe4-cgeu-1-il-1",
+    "serviceId": "3be6vwb683h",
+    "site": "gke",
+    "url": "https://mr-ed0zbwg1fs3-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  },
+  "qa-gke-euwe4-cgeu-1-pe-1": {
+    "bridges": {
+      "#cluster:c45b9f032f22000a6243f53b00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:c45b9f032f22000a6243f53b00000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:c45b9f032f22000a6243f53b00000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:c45b9f032f22000a6243f53b00000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:c45b9f032f22000a6243f53b00000004": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:c45b9f032f22000a6243f53b00000005": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-ts-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "people",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-pe-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-pe-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "ych027kr1h2",
+    "name": "qa-gke-euwe4-cgeu-1-pe-1",
+    "serviceId": "0d2q6m6j1s4",
+    "site": "gke",
+    "url": "https://mr-ych027kr1h2-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  },
+  "qa-gke-euwe4-cgeu-1-ts-1": {
+    "bridges": {
+      "#cluster:edf8e9b76be8000a62138f9300000001": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bv-1"
+      },
+      "#cluster:edf8e9b76be8000a62138f9300000002": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-fu-1"
+      },
+      "#cluster:edf8e9b76be8000a62138f9300000003": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-bs-1"
+      },
+      "#cluster:edf8e9b76be8000a62138f9300000005": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-cu-1"
+      },
+      "#cluster:edf8e9b76be8000a62138f9300000007": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-il-1"
+      },
+      "#cluster:edf8e9b76be8000a62138f9300000009": {
+        "bridge_type": "externalDMR",
+        "service_name_remote": "qa-dc8oc4-euse-cgeu-2-ts-1"
+      },
+      "#cluster:edf8e9b76be8000a6243ba3e00000000": {
+        "bridge_type": "internalDMR",
+        "service_name_remote": "qa-gke-euwe4-cgeu-1-pe-1"
+      }
+    },
+    "credentials": "solace-broker",
+    "domain": "technology-services",
+    "endpoints": {
+      "private": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:55443",
+        "Secured UI": "https://qa-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:943",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-ts-1-int-ingka.messaging.solace.cloud:443"
+      },
+      "public": {
+        "Secured AMQP": "amqps://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:5671",
+        "Secured JMS": "smfs://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured MQTT": "ssl://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:8883",
+        "Secured REST": "https://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:9443",
+        "Secured SMF": "tcps://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:55443",
+        "Secured Web Messaging": "wss://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:443",
+        "WebSocket Secured MQTT": "wss://qa-gke-euwe4-cgeu-1-ts-1-ext-ingka.messaging.solace.cloud:8443"
+      }
+    },
+    "environment": "staging",
+    "infrastructureId": "eh5d615e5fz",
+    "name": "qa-gke-euwe4-cgeu-1-ts-1",
+    "serviceId": "859ar0fioej",
+    "site": "gke",
+    "url": "https://mr-eh5d615e5fz-int.messaging.solace.cloud:943",
+    "version": "10.4.1.121",
+    "vpn": "qa-gke-euwe4-cgeu-1"
+  }
+}
