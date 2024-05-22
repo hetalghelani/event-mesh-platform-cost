@@ -1,0 +1,65 @@
+name: Pull Request
+on:
+  schedule:
+  - cron: '15 * * * *'
+  workflow_dispatch:
+jobs:
+  pull-request:
+    name: Pull Request
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Get services.json
+      run: |
+        curl https://api.github.com/repos/ingka-group-digital/event-mesh-jenkins-shared-library/contents/data/services.json?ref=datasource \
+          -H 'Authorization: Bearer ${{ secrets.GH_TOKEN }}' \
+          -H 'Accept: application/vnd.github.VERSION.raw' > services.json
+    - name: Broker Variable Update
+      working-directory: broker
+      run: |
+        printf 'service_names_nonprod = ' > terraform.tfvars
+        jq 'with_entries(select(.key | startswith("pro") | not)) | keys' ../services.json >> terraform.tfvars
+        printf '\nservice_names_prod = ' >> terraform.tfvars
+        jq 'with_entries(select(.key | startswith("pro"))) | keys' ../services.json >> terraform.tfvars
+        cat terraform.tfvars
+    - name: Bridge Variable Update
+      working-directory: bridge
+      run: |
+        python ${{ github.WORKSPACE }}/.github/scripts/bridge_details.py ../services.json
+        cat terraform.tfvars
+    - name: Delete services.json
+      run: rm -f services.json
+    - name: Terraform Setup
+      uses: hashicorp/setup-terraform@v2
+      with:
+        terraform_version: 1.2.5
+    - name: Broker Terraform Plan
+      working-directory: broker
+      run: |
+        terraform init
+        terraform validate
+        terraform plan -no-color -parallelism=1
+    - name: Bridge Terraform Plan
+      working-directory: bridge
+      run: |
+        terraform init
+        terraform validate
+        terraform plan -no-color -parallelism=1
+    - name: Get Date
+      id: date
+      run: echo "::set-output name=date::$(date '+%d-%m-%Y %H:%M:%S')"
+    - name: Pull Request
+      uses: gr2m/create-or-update-pull-request-action@v1
+      env:
+         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        title: "GitHub Actions: configuration autoupdate."
+        body: |
+         `terraform plan` outputs are available at:
+         - url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+         - job: `pull-request`
+         - steps: `Broker Terraform Plan` and `Bridge Terraform Plan`
+        branch: configuration-autoupdate
+        commit-message: "GitHub Actions: terraform.tfvars autoupdated on ${{ steps.date.outputs.date }}."
+        update-pull-request-title-and-body: true
