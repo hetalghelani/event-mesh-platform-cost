@@ -18,9 +18,7 @@ jobs:
     - name: Broker Variable Update
       working-directory: broker
       run: |
-        printf 'service_names_nonprod = ' > terraform.tfvars
         jq 'with_entries(select(.key | startswith("pro") | not)) | keys' ../services.json >> terraform.tfvars
-        printf '\nservice_names_prod = ' >> terraform.tfvars
         jq 'with_entries(select(.key | startswith("pro"))) | keys' ../services.json >> terraform.tfvars
         cat terraform.tfvars
     - name: Bridge Variable Update
