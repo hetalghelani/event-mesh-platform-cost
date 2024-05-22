@@ -6,9 +6,6 @@ on:
 jobs:
   pull-request:
     name: Pull Request
-    env:
-      GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-      ILERT_API_TOKEN: ${{ secrets.ILERT_API_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -21,9 +18,7 @@ jobs:
     - name: Broker Variable Update
       working-directory: broker
       run: |
-        printf 'service_names_nonprod = ' > terraform.tfvars
         jq 'with_entries(select(.key | startswith("pro") | not)) | keys' ../services.json >> terraform.tfvars
-        printf '\nservice_names_prod = ' >> terraform.tfvars
         jq 'with_entries(select(.key | startswith("pro"))) | keys' ../services.json >> terraform.tfvars
         cat terraform.tfvars
     - name: Bridge Variable Update
@@ -43,20 +38,12 @@ jobs:
         terraform init
         terraform validate
         terraform plan -no-color -parallelism=1 \
-          -var="datadog_api_key_nonprod=${{ secrets.DD_API_KEY_NONPROD }}" \
-          -var="datadog_app_key_nonprod=${{ secrets.DD_APP_KEY_NONPROD }}" \
-          -var="datadog_api_key_prod=${{ secrets.DD_API_KEY_PROD }}" \
-          -var="datadog_app_key_prod=${{ secrets.DD_APP_KEY_PROD }}"
     - name: Bridge Terraform Plan
       working-directory: bridge
       run: |
         terraform init
         terraform validate
         terraform plan -no-color -parallelism=1 \
-          -var="datadog_api_key_nonprod=${{ secrets.DD_API_KEY_NONPROD }}" \
-          -var="datadog_app_key_nonprod=${{ secrets.DD_APP_KEY_NONPROD }}" \
-          -var="datadog_api_key_prod=${{ secrets.DD_API_KEY_PROD }}" \
-          -var="datadog_app_key_prod=${{ secrets.DD_APP_KEY_PROD }}"
     - name: Get Date
       id: date
       #run: echo "::set-output name=date::$(date '+%d-%m-%Y %H:%M:%S')"
