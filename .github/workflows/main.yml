@@ -35,7 +35,7 @@ jobs:
     - name: Get Date
       id: date
       #run: echo "::set-output name=date::$(date '+%d-%m-%Y %H:%M:%S')"
-      run: echo "today=$(date '+%d-%m-%Y %H:%M:%S')" >> $GITHUB_OUTPUT
+      run: echo "today=$(date '+%d-%m-%Y %H:%M:%S')" >> $GITHUB_ENV
     - name: Pull Request
       uses: gr2m/create-or-update-pull-request-action@v1
       env:
@@ -48,5 +48,5 @@ jobs:
          - job: `pull-request`
          - steps: `Broker Terraform Plan` and `Bridge Terraform Plan`
         branch: configuration-autoupdate
-        commit-message: "GitHub Actions: terraform.tfvars autoupdated on ${today}"
+        commit-message: "GitHub Actions: terraform.tfvars autoupdated on ${{today}}"
         update-pull-request-title-and-body: true
