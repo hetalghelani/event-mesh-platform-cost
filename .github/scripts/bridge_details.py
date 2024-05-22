@@ -1,15 +1,28 @@
 import json
 import sys
 import re
+import os
 
-with open(sys.argv[1], 'r') as file:
+# Get the current working directory
+current_directory = os.getcwd()
+
+# Define the filename
+filename = "services.json"
+
+# Create the full path to the file by joining the current directory and the filename
+file_path = os.path.join(current_directory, filename)
+
+with open(file_path, 'r') as file:
     services = json.load(file)
+
+print(services)
 
 bridges_config_nonprod = []
 bridges_config_prod = []
 
 for service_name_source, service_data in services.items():
     bridges = service_data.get("bridges", {})
+    print(bridges)
 
     for bridge_name, bridge_info in bridges.items():
         if service_name_source.startswith('qa') or service_name_source.startswith('pro'):
