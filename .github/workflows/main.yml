@@ -48,5 +48,5 @@ jobs:
          - job: `pull-request`
          - steps: `Broker Terraform Plan` and `Bridge Terraform Plan`
         branch: configuration-autoupdate
-        commit-message: "GitHub Actions: terraform.tfvars autoupdated on ${{ GITHUB_ENV.now }}"
+        commit-message: "GitHub Actions: terraform.tfvars autoupdated on ${{ env.now }}"
         update-pull-request-title-and-body: true
