@@ -176,15 +176,8 @@ bridges_config_nonprod = [
         bridge_name = "cluster:edf8e9b76be8000a62138f9300000009"
     }
 ]
+
 bridges_config_prod = [
-    {
-        service_name_source = "pro-aks-euwe-cgeu-1-bs-1",
-        service_name_remote = "pro-dc8oc4-euse-cgeu-2-ts-1",
-        service_site_source = "aks",
-        service_site_remote = "dc8",
-        bridge_type = "externalDMR",
-        bridge_name = "cluster:9ef9de561720000a627a4bbd00000000"
-    },
     {
         service_name_source = "pro-aks-euwe-cgeu-1-bs-1",
         service_name_remote = "pro-gke-euwe4-cgeu-1-il-1",
@@ -192,6 +185,14 @@ bridges_config_prod = [
         service_site_remote = "gke",
         bridge_type = "externalDMR",
         bridge_name = "cluster:9ef9de561720000a627a4bbd00000007"
+    },
+    {
+        service_name_source = "pro-aks-euwe-cgeu-1-bs-1",
+        service_name_remote = "pro-dc8oc4-euse-cgeu-2-ts-1",
+        service_site_source = "aks",
+        service_site_remote = "dc8",
+        bridge_type = "externalDMR",
+        bridge_name = "cluster:9ef9de561720000a65b8ef6a00000000"
     },
     {
         service_name_source = "pro-aks-euwe-cgeu-1-bs-1",
@@ -267,19 +268,19 @@ bridges_config_prod = [
     },
     {
         service_name_source = "pro-dc8oc4-euse-cgeu-2-ts-1",
-        service_name_remote = "pro-gke-euwe4-cgeu-1-ts-1",
-        service_site_source = "dc8",
-        service_site_remote = "gke",
-        bridge_type = "externalDMR",
-        bridge_name = "cluster:4713ad6d4be6000a623c7a1500000006"
-    },
-    {
-        service_name_source = "pro-dc8oc4-euse-cgeu-2-ts-1",
         service_name_remote = "pro-aks-euwe-cgeu-1-bs-1",
         service_site_source = "dc8",
         service_site_remote = "aks",
         bridge_type = "externalDMR",
-        bridge_name = "cluster:a1e41859a7fe000a62df557300000000"
+        bridge_name = "cluster:a1e41859a7fe000a6627268a00000000"
+    },
+    {
+        service_name_source = "pro-dc8oc4-euse-cgeu-2-ts-1",
+        service_name_remote = "pro-gke-euwe4-cgeu-1-ts-1",
+        service_site_source = "dc8",
+        service_site_remote = "gke",
+        bridge_type = "externalDMR",
+        bridge_name = "cluster:a1e41859a7fe000a6627268a00000001"
     },
     {
         service_name_source = "pro-dc9oc4-cnsh-cgap-1-bs-1",
@@ -351,6 +352,6 @@ bridges_config_prod = [
         service_site_source = "gke",
         service_site_remote = "dc8",
         bridge_type = "externalDMR",
-        bridge_name = "cluster:8e3fd2124829000a6242a2a700000008"
+        bridge_name = "cluster:ea3f41766978000a65e6d0b000000000"
     }
 ]
