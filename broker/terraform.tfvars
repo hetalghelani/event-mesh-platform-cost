@@ -67,7 +67,6 @@ service_names_prod = [
   "int-dc9oc4-cnsh",
   "int-gke-euwe4",
   "qa-aks-euwe-cgeu-1-bs-1",
-  "qa-ali-cnsh-cgap-1-bs-1",
   "qa-ali-cnsh-cgap-1-cu-1",
   "qa-ali-cnsh-cgap-1-fu-1",
   "qa-ali-cnsh-cgap-1-il-1",
@@ -91,7 +90,6 @@ service_names_prod = [
 ]
 [
   "pro-aks-euwe-cgeu-1-bs-1",
-  "pro-ali-cnsh-cgap-1-bs-1",
   "pro-ali-cnsh-cgap-1-cu-1",
   "pro-ali-cnsh-cgap-1-fu-1",
   "pro-ali-cnsh-cgap-1-il-1",
